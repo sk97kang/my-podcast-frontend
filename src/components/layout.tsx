@@ -12,7 +12,7 @@ export const Layout: React.FC<ILayoutProps> = ({
   title,
 }) => {
   return (
-    <main className={`container h-screen ${className}`}>
+    <main className={`container h-screen pt-20 ${className}`}>
       <Helmet>
         <title>{title} | My Podcast</title>
       </Helmet>
