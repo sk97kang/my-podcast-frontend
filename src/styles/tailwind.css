@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.container {
+  @apply w-full max-w-screen-lg mx-auto px-4 lg:px-0;
+}
+
+.input {
+  @apply w-full px-3 py-2 border border-lime-500 rounded-sm focus:border-lime-900 outline-none transition-colors;
+}
+
 @tailwind utilities;
